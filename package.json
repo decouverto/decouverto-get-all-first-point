@@ -1,0 +1,28 @@
+{
+  "name": "decouverto-get-all-first-point",
+  "version": "0.0.0",
+  "description": "A node module to get the first point of all the walks of Découverto.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decouverto/decouverto-get-all-first-point.git"
+  },
+  "keywords": [
+    "decouverto"
+  ],
+  "bin": {
+    "decouverto-get-all-first-point": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Cédric Jung <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decouverto/decouverto-get-all-first-point/issues"
+  },
+  "homepage": "https://github.com/decouverto/decouverto-get-all-first-point#readme",
+  "dependencies": {
+    "then-request": "^6.0.2"
+  }
+}
